@@ -18,6 +18,9 @@ module fa_module
     // A and b = i1
     and u2(i1, A, B);
 
+    // i0 and Cin = i2
+    and u3(i2, i0, Cin);
+    
     // i1 or i2 = Cout
     or u4(Cout, i1, i2);
 
