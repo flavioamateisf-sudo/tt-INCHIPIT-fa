@@ -28,5 +28,4 @@ module fa_module
     xor u5(S, i0, Cin);
 
     
-    
 endmodule: fa_module
